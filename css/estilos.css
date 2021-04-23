@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #e3ddd9 68%, #98d391 32%);
+    font-family: 'calibri', cursive;
+}
+
+.titulo {
+    font-size: 33px;
+    font-family: 'finland', cursive;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.subtitulo {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-size: 45px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.sabor {
+    color: rgb(255, 255, 255);
+    margin: 7px 0;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'finland', curive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #f7efc4;
+}
+
+
+/*materialize stilos*/
+
+.carousel {
+    min-height: 500px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 350px;
+    height: 350px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
